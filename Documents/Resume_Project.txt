@@ -1,0 +1,5 @@
+- Built an intelligent predictive-maintenance system using the AI4I 2020 machine dataset with 10,000 cleaned records and six sensor/machine-type input features.
+- Compared Logistic Regression, Decision Tree, Random Forest, and XGBoost using recall-focused evaluation metrics, including F2 and ROC-AUC.
+- Selected the saved XGBoost production pipeline with a decision threshold of 0.55; recorded test recall of 0.8471, F2 of 0.7742, and ROC-AUC of 0.9723.
+- Added transparent post-processing for a 0–100 risk score, risk level, maintenance recommendation, and illustrative expected-failure-loss estimate.
+- Developed a Streamlit dashboard that accepts machine readings and presents failure probability, decision status, likely failure type, maintenance guidance, and optional local SHAP explanations.
